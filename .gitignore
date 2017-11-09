@@ -6,6 +6,7 @@
 client/.vscode
 server/.vscode
 server/node_modules
+client/dist
 client/node_modules
 client/typings
 client/app/**/*.js
