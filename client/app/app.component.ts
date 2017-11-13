@@ -10,7 +10,7 @@ import { Http } from '@angular/http';
 export class AppComponent { 
     fotos : Object[] = [];
 
-    constructor(@Inject(Http) http){
+    constructor(http : Http){
         let stream = http.get('v1/fotos');
-    }
+    }   
 }
