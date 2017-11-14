@@ -6,10 +6,11 @@ import { FotoModule } from './foto/foto.module';
 import { HttpModule } from '@angular/http';
 import { PainelModule } from './painel/painel.module';
 import { CadastroComponent } from "./cadastro/cadastro.component";
+import { ListagemComponent } from "./listagem/listagem.component";
 
 @NgModule({
     imports:        [ BrowserModule , FotoModule, HttpModule, PainelModule ],
-    declarations:   [ AppComponent, CadastroComponent ],
+    declarations:   [ AppComponent, CadastroComponent, ListagemComponent ],
     bootstrap:      [ AppComponent ]
 })
 
