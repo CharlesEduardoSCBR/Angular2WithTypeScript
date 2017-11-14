@@ -2,5 +2,7 @@
     <h1 class="text-center">Angular 2</h1>
 </div>
 <div class="container">
-    <foto *ngFor="let foto of fotos"  titulo="{{foto.titulo}}" url="{{foto.url}}"></foto>
+    <painel *ngFor="let foto of fotos" titulo={{foto.titulo}}>
+        <foto   titulo="{{foto.titulo}}" url="{{foto.url}}"></foto>
+    </painel>
 </div>
