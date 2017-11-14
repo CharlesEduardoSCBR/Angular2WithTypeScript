@@ -5,10 +5,11 @@ import { AppComponent } from './app.component';
 import { FotoModule } from './foto/foto.module';
 import { HttpModule } from '@angular/http';
 import { PainelModule } from './painel/painel.module';
+import { CadastroComponent } from "./cadastro/cadastro.component";
 
 @NgModule({
     imports:        [ BrowserModule , FotoModule, HttpModule, PainelModule ],
-    declarations:   [ AppComponent ],
+    declarations:   [ AppComponent, CadastroComponent ],
     bootstrap:      [ AppComponent ]
 })
 
